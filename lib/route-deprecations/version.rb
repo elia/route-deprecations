@@ -1,3 +1,3 @@
 module RouteDeprecations
-  VERSION = '0.2.0' unless defined? :VERSION
+  VERSION = '0.2.0.beta' unless defined? :VERSION
 end
