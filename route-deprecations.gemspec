@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ['Elia Schito']
   gem.email         = ['elia@schito.me']
   gem.description   = %q{Adds ability to deprecate routes from config routes}
-  gem.summary       = %q{Deprecate `map.connect ':controller/:action'` with ease!}
+  gem.summary       = %q{Deprecate your routes with ease!}
   gem.homepage      = 'http://elia.github.com/route-deprecations'
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }

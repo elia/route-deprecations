@@ -12,7 +12,7 @@ Well with this gem it can be transformed to this:
 map.connect ':controller/:action', :deprecated => true
 ```
 
-obtaining nice deprecation messages!
+obtaining nice deprecation messages (of course you can use `:deprecated => true` on any route you want)!
 
 **protip:** [setup exception notifier](https://gist.github.com/c0eb3b5015d919e909a2) to send you a mail each time a deprecation  is raised in production)
 
