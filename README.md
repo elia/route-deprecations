@@ -24,14 +24,6 @@ Add this line to your application's Gemfile (if you don't use bundler on rails 2
 
     gem 'route-deprecations'
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install route-deprecations
-
 
 ## Contributing
 
