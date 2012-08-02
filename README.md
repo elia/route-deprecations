@@ -1,10 +1,26 @@
-# Route::Deprecations
+# RouteDeprecations
 
-TODO: Write a gem description
+Ever tried to migrate a legacy rails app that featured the dreaded _catch-all_ route?
+
+```ruby
+map.connect ':controller/:action' # ouch!
+```
+
+Well with this gem it can be transformed to this:
+
+```ruby
+map.connect ':controller/:action', :deprecated => true
+```
+
+obtaining nice deprecation messages!
+
+**protip:** [setup exception notifier](https://gist.github.com/c0eb3b5015d919e909a2) to send you a mail each time a deprecation  is raised in production)
+
+
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile (if you don't use bundler on rails 2 [setup it now](http://gembundler.com/rails23.html)):
 
     gem 'route-deprecations'
 
@@ -16,9 +32,6 @@ Or install it yourself as:
 
     $ gem install route-deprecations
 
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
