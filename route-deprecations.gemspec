@@ -1,5 +1,6 @@
 # coding: utf-8
-require File.expand_path('../lib/route-deprecations/version', __FILE__)
+$LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
+require 'route-deprecations/version'
 
 Gem::Specification.new do |gem|
   gem.authors       = ['Elia Schito']
