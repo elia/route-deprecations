@@ -1,5 +1,3 @@
-module Route
-  module Deprecations
-    VERSION = "0.0.1"
-  end
+module RouteDeprecations
+  VERSION = '0.2.0' unless defined? :VERSION
 end

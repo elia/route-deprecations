@@ -1,7 +1,4 @@
-require "route-deprecations/version"
+require 'route-deprecations/version'
+require 'route-deprecations/route'
 
-module Route
-  module Deprecations
-    # Your code goes here...
-  end
-end
+ActionController::Routing::Route.send :include, RouteDeprecations::Route
